@@ -162,14 +162,16 @@ class _MainPageState extends State<MainPage> {
                     ),
                   ),
                   RotatedBox(
-                    quarterTurns: 90,
-                    child: SizedBox(
-                      height: 160,
-                      child: Center(
-                        child: Text(
-                          "$result",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 20),
+                    quarterTurns: 45,
+                    child: Padding(
+                      padding: const EdgeInsets.all(10),
+                      child: Container(
+                        child: Center(
+                          child: Text(
+                            "$result",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(fontSize: 20),
+                          ),
                         ),
                       ),
                     ),
